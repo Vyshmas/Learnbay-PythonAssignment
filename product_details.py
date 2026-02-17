@@ -1,6 +1,6 @@
 discount=10
 def product_details(prod_id,prod_name,prod_price):
-    global discount
+    discount
     total_price=prod_price - (prod_price*discount/100)
     print("the prodcut details")
     print("------------------------")
@@ -9,7 +9,7 @@ def product_details(prod_id,prod_name,prod_price):
     print("total_price",total_price)
 
     def final_price(quantity,price):
-      global discount
+      discount
       finalprice=quantity*price
       discount_price= finalprice-(finalprice*discount/100)
       return discount_price
