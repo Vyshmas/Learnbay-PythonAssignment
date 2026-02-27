@@ -7,7 +7,7 @@ class flight:
 
    def display_flight_info(self):
       print(f"The Flight Deatils Are As Follows \n ----------------------------------")
-      print(f"Filght No:{self.flight_no}\n Baseprice:{self.base_price} \n Totalseat: {self.flight_no}")
+      print(f"Filght No:{self.flight_no}\n Baseprice:{self.base_price} \n Totalseat: {self.total_seat}")
 
 class domesticflight(flight):
      
